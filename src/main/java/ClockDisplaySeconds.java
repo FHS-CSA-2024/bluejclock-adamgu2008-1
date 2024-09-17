@@ -62,9 +62,6 @@ public class ClockDisplaySeconds
     }
     //Implement a method getTime that takes no parameter and returns a String
     //The return String should be formatted as HH:MM and report out the current time
-    public String getTime(){
-        return display;
-    }
     //Implement a method updateDisplay that takes no parameters and returns nothing
     //The method should update the displayString with the current time in a format
     //  HH:MM
@@ -78,4 +75,9 @@ public class ClockDisplaySeconds
         
         display = newDisplay;
     }
+    
+    public String getTimeSec(){
+        return display;
+    }
+    
 }
