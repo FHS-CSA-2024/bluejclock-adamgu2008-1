@@ -51,15 +51,15 @@ public class ClockDriver
         System.out.println("Testing Clock Display Seconds: ");
         ClockDisplaySeconds testA = new ClockDisplaySeconds();
         String testAOutput = testA.getTimeSec();
-        System.out.println("\tEmpty Con. Test - " + test1Output);
+        System.out.println("\tEmpty Con. Test - " + testAOutput);
         
         ClockDisplaySeconds testB = new ClockDisplaySeconds(2, 45, 39);
         String testBOutput = testB.getTimeSec();
-        System.out.println("\tArg Con. Test - "+ test2Output);
+        System.out.println("\tArg Con. Test - "+ testBOutput);
         
         testB.setTime(5, 15, 12);
         String testCOutput = testB.getTimeSec();
-        System.out.println("\tSet Time Test - "+ test3Output);
+        System.out.println("\tSet Time Test - "+ testCOutput);
         
         ClockDisplaySeconds tickTestA = new ClockDisplaySeconds(3, 32, 59);
         String tickTestAOutput = tickTestA.getTimeSec();
