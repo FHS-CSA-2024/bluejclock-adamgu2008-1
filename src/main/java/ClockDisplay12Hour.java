@@ -1,7 +1,7 @@
 package src.main.java;
 
 
-public class ClockDisplay12Hr
+public class ClockDisplay12Hour
 {
     //Implement 2 private NumberDisplay objects. 
     //  One for hours and one for minutes
